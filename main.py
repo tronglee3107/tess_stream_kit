@@ -14,7 +14,7 @@ if button:
         if not len(news):
             st.markdown("Input at least a piece of news")
         else:
-            pred =1
+            pred =0
 
             if pred == 1:
                 st.markdown("Real news")
